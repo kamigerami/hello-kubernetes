@@ -1,6 +1,9 @@
 # Provide a custom message
 message: ""
 
+secret:
+  name: "demo-secret-name"
+  key: "demo-secret-key"
 # Remember to set service.type=ClusterIP if you are using an ingress
 ingress:
   configured: false
